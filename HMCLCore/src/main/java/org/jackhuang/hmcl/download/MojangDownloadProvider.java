@@ -59,12 +59,12 @@ public class MojangDownloadProvider implements DownloadProvider {
 
     @Override
     public String getVersionListURL() {
-        return "https://piston-meta.mojang.com/mc/game/version_manifest.json";
+        return "https://mc.api.goodboyboy.top/mojang/piston-meta/mc/game/version_manifest.json";
     }
 
     @Override
     public String getAssetBaseURL() {
-        return "https://resources.download.minecraft.net/";
+        return "https://mc.api.goodboyboy.top/minecraft/resources-download/";
     }
 
     @Override
